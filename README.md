@@ -1,4 +1,5 @@
-# 2civ1udp
+# Dual Icom CI-V to UDP/IP (2civ1udp)
+
 2civ1udp is an interface built around an esp32-vroom. It allows to dialogue with 2 ICOM transceivers using CI-V commands using a UDP protocol. 
 
 ![alt text](https://github.com/F1RTD/2civ1udp/blob/master/images/2civ1udp.png?raw=true)
