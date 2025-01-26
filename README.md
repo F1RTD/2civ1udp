@@ -3,6 +3,6 @@
 
 ![alt text](https://github.com/F1RTD/2civ1udp/blob/master/images/2civ1udp.png?raw=true)
 
-Le fonctionnement et les détails de fabrication sont decrit sur le site WWW.F1RTD.COM
+Operation and manufacturing details are described on the F1RTD pages
 
 https://www.f1rtd.com/index.php/2024/06/15/dual-icom-ci-v-to-udp-ip/
