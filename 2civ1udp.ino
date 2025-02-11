@@ -119,11 +119,12 @@ void loop() {
         while (COM[i]->available()) {
           buffer[i][ix[i]] = COM[i]->read();
           ix[i]++;
-          if (buffer[i][ix[i]-1] == 253){
+          if (buffer[i][ix[i]-1] == 253){          
             udp.broadcastTo(buffer[i], ix[i], UDP_PORT);
-            ix[i] = 0;
+            ix[i] = 0;                        
+            memset(buffer[i], 0, sizeof(buffer[i]));           
             break;
-          }
+          }         
         }
       digitalWrite(serial_led_tx[i],LOW);
       }      
